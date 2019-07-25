@@ -38,7 +38,7 @@ public class BetweennessCentralityImproved implements CentralityDetectionImprove
 					}
 				}
 			}
-			if (max != 0) {
+			if (max != 0) { 
 				val.add(max);
 
 			}
