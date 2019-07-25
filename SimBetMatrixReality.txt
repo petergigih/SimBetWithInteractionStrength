@@ -152,7 +152,7 @@ Report.report2 = ReportTransferMessage
 
 #Report.report4 = BufferOverflowReport
 
-#Report.report1 = DeliveryCentralityReport
+
 
 #Report.report1 = FamilySetDetectionReport
 #Report.report2 = MessageStatsReport
