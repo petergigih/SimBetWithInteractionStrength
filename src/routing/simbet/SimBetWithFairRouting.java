@@ -22,7 +22,7 @@ import javax.naming.NameNotFoundException;
 /**
  * @SimBet By Elisabeth Kusuma
  * @FairRouting By Elisabeth Kusuma
- *
+ **
  * @Merged By Peter.G(155314027)
  */
 public class SimBetWithFairRouting implements RoutingDecisionEngine, SimilarityDetectionEngine, Matrix{
