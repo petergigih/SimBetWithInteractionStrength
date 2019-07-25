@@ -1,0 +1,157 @@
+# Setting test for ONE intact Connection Mode
+
+#Scenario information
+#Scenario.name = A
+Scenario.name = %%DecisionEngineRouter.select%%(%%DecisionEngineRouter.K%%-%%DecisionEngineRouter.familiarThreshold%%)(%%DecisionEngineRouter.sdnrofHosts%%)[(%%Events2.interval%%)%%Group.bufferSize%%,%%Events2.size%%,%%Group.msgTtl%%].%%DecisionEngineRouter.sdParameter%%(%%Events1.select%%)-%%Scenario.endTime%%(%%DecisionEngineRouter.numberrun%%)
+
+Scenario.simulateConnections = false
+Scenario.updateInterval = 1 
+
+Scenario.endTime = 16981816
+#987529 Haggle Cam
+#274883 Haggle
+#16981816 Reality
+#342915 Infocom6
+
+Report.warmup = 1
+Scenario.nrofHostGroups = 1
+
+#Interfaces informations
+btInterface.type = SimpleBroadcastInterface
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 10
+btInterface.scanInterval = 120
+
+#Group Information
+## Buffer Size : 200 messages of 10 K ~ 2M
+Group.bufferSize = 20M
+
+## Router
+
+##BubbleRap router
+Group.router = DecisionEngineRouter
+DecisionEngineRouter.decisionEngine = community.selfisness.BRUniformDistribution
+DecisionEngineRouter.select = UniformDistribution
+#PercentageOfSelfishness    BRPercentageOfSelfishness
+#UniformDistribution    BRUniformDistribution
+#NormalDistribution BRNormalDistribution
+#GeometricDistribution  BRGeometricDistribution
+#GlobalNodeBiasedDistribution   BRGlobalNodeBiasedDistribution
+#CommunityBiasedDistribution    BRCommunityBiasedDistribution
+
+DecisionEngineRouter.communityDetectAlg = routing.community.KCliqueCommunityDetection
+DecisionEngineRouter.K = 5
+DecisionEngineRouter.familiarThreshold = 80000
+#1300 Haggle Cam
+#1000 Haggle
+#80000 Reality
+#1000 Infocom6
+
+DecisionEngineRouter.centralityAlg = routing.community.DegreeCentrality
+DecisionEngineRouter.numberrun = [0;1;2;3;4;5;6;7;8;9]
+#DecisionEngineRouter.numberrun = 9
+
+DecisionEngineRouter.sdParameter = 0.7
+#DecisionEngineRouter.sdParameter = (wo param)
+DecisionEngineRouter.sdnrofHosts = 97
+#36 Haggle Cam
+#41 Haggle
+#97 Reality
+#98 Infocom6
+
+DecisionEngineRouter.sdList = [0.1:39,2,58,7,53,57,41,56,0/0.3:9,65,11,3,37,74,52,1,80,79,48,24,27,89,84,72,46,33,83,14/0.7:63,28,6,42,21,90,94,12,73,69,50,38,76,10,85,81,43,15,75,31,67,64,70,88,35,25,13,78,49,54,18,59,16,61,95,34,36,91,30/0.9:60,62,66,44,5,19,20,96,68,87,32,22,51,47,23,77,4,93,29,8/1.0:45,55,82,92,71,17,86,40,26;0.1:55,60,18,77,41,64,76,78,86/0.3:57,70,9,34,16,24,3,73,95,31,10,72,4,71,45,91,32,84,63,29/0.7:96,23,2,89,51,22,26,39,1,93,35,59,40,27,85,6,54,75,61,19,62,49,88,56,30,83,15,21,25,5,43,92,58,68,7,37,82,17,65/0.9:66,8,42,94,79,33,87,74,28,0,90,11,44,14,53,13,47,50,52,38/1.0:36,81,69,67,48,80,46,20,12;0.1:69,66,4,50,82,1,91,3,30/0.3:23,8,76,92,58,94,28,18,79,27,67,48,63,87,19,31,43,60,93,61/0.7:34,53,51,44,32,70,25,35,26,74,62,41,71,75,77,96,81,15,12,56,49,59,84,2,20,10,24,38,52,40,47,83,11,5,78,95,90,0,46/0.9:89,54,55,7,80,13,72,9,85,16,45,88,14,37,22,73,33,6,36,39/1.0:68,86,64,29,65,21,42,57,17;0.1:46,75,59,29,36,51,69,63,32/0.3:82,42,86,37,94,53,35,44,26,71,89,47,1,31,93,84,14,52,19,20/0.7:4,61,45,13,72,96,11,79,64,85,33,22,83,43,74,80,3,21,81,17,88,54,38,30,23,34,68,2,25,0,90,28,62,27,60,10,15,73,18/0.9:66,67,7,50,40,57,49,58,91,39,95,78,9,24,41,8,48,12,92,5/1.0:76,55,6,70,87,16,56,65,77;0.1:42,36,48,73,92,59,23,12,77/0.3:15,50,51,66,33,2,64,49,13,76,80,38,88,24,84,96,72,16,3,47/0.7:40,58,1,27,9,10,70,26,37,31,63,30,95,41,43,28,61,62,55,68,86,4,35,45,39,32,65,82,78,6,54,56,57,94,74,29,81,75,44/0.9:5,71,90,18,21,20,91,22,67,53,89,69,34,85,17,0,83,46,14,7/1.0:11,25,93,52,79,19,60,8,87]
+
+## TTL 24 hours=1440, 1 week= 10080, 3 weeks= 30240 4320
+Group.msgTtl = 20160
+#1440 Haggle Cam
+#360 Haggle
+#10080 Reality 20160
+#360 Infocom6
+
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+
+#Group1 Information
+Group1.groupID = A
+Group1.waitTime = 10, 30 
+Group1.speed = 0.8, 1.4
+Group1.nrofHosts = 97
+#36 Haggle Cam
+#41 Haggle
+#97 Reality
+#98 Infocom6
+Group1.nodeLocation = 10, 10
+Group1.movementModel = StationaryMovement
+
+
+#How many event generator
+Events.nrof = 2
+
+## Trace information
+Events1.class = ExternalEventsQueue
+Events1.filePath = scenario/RealityConnectionTraceFinal.txt
+Events1.select = RealityConnectionTraceFinal
+#Haggle4-Cam-Imote.csv
+#Haggle3-Infocom5.csv
+#Haggle6-infocom6.csv
+#RealityConnectionTraceFinal.txt
+
+## Message creation parameters
+Events2.class = MessageEventGenerator
+#Events2.interval = 25,35
+Events2.interval = 500, 600
+#imote3-infocom5 200
+#lainnya 500,600
+
+#97, 103
+# 25,30 (~120 texts/hour) 
+#290, 310 (~12 texts/hour)
+# 580, 620 (~ 6 texts/hour)
+
+Events2.size = 50k
+#Haggle Cam 100k, 250k
+#Haggle 250k, 300k
+#Reality 20k
+#Infocom6 350k , 400k
+
+## range of message source/destination address 
+Events2.hosts = 0, 96
+# 0, 35 Haggle Cam
+# 0, 40 Haggle
+# 0, 96 Reality
+# 0, 97 Infocom6
+Events2.prefix = M
+
+Events2.time = 0, 15772216
+#987529 Haggle Cam 901129
+#274883 Haggle 253283
+#16981816 Reality 16377016 15772216
+#342915 Infocom6 321315
+
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 100, 100
+
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = [2; 8372; 98092; 18293; 777]
+
+#ReportsInformations
+Report.nrofReports = 5
+
+Report.reportDir = reports/DataSetSF/final/JUN19/
+#Report.reportDir = reports/test/
+
+#Report classes to load
+Report.report1 = CommunityDetectionReport
+Report.report2 = MessageStatsReport
+Report.report3 = BufferOccupancyReport
+Report.report4 = MessageStatsReportperTime
+Report.report5 = MessageStatsReportperContact
+
+Report.report6 = BufferOccupancyPerHourReport
+Report.report7 = BufferOccupancyPerDayReport
+Report.report8 = BufferOccupancyPerTime
+Report.report9 = DeliveredMessagesReport
+
+
+
+

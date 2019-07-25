@@ -1,0 +1,112 @@
+
+# Setting test for ONE intact Connection Mode
+# Rafelck
+
+#Scenario information
+Scenario.name = [0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9]
+Scenario.simulateConnections = false
+Scenario.updateInterval = 1
+Scenario.endTime = 16981816
+
+#987529 Haggle Cam
+#274883 Haggle
+#16981816 Reality
+
+Report.warmup = 1
+Scenario.nrofHostGroups = 1
+
+#Interfaces informations
+btInterface.type = SimpleBroadcastInterface
+btInterface.transmitSpeed = 250k
+btInterface.transmitRange = 10
+btInterface.scanInterval = 120
+
+#Group Information
+## Buffer Size : 200 messages of 10 K ~ 2M
+Group.bufferSize = 20M
+
+##FairRoutingRouter
+Group.router = DecisionEngineRouter
+DecisionEngineRouter.decisionEngine = simbet.SimBetWithFairRouting
+DecisionEngineRouter.centralityAlg = routing.community.BetweennessCentralityImproved
+DecisionEngineRouter.similarityAlg = routing.community.NeighbourhoodSimilarityImproved
+DecisionEngineRouter.alpha = [0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9]
+#DecisionEngineRouter.alpha = 0.5
+DecisionEngineRouter.shortTermR = 0.09
+DecisionEngineRouter.longTermR = 0.009
+
+
+## TTL 24 hours=1440, 1 week= 10080, 3 weeks= 30240,1 month = 43800, 12 hour = 720
+Group.msgTtl = 10080
+Group.nrofInterfaces = 1
+Group.interface1 = btInterface
+
+#Group1 Information
+Group1.groupID = A
+Group1.waitTime = 10, 30
+Group1.speed = 0.8, 1.4
+Group1.nrofHosts = 97
+#36 Haggle Cam
+#41 Haggle
+#97 Reality
+Group1.nodeLocation = 10, 10
+Group1.movementModel = StationaryMovement
+#StationaryMovement gerak diam
+
+#How many event generator
+Events.nrof = 2
+
+## Trace information
+Events1.class = ExternalEventsQueue
+Events1.filePath = scenario/RealityConnectionTraceFinal.txt
+Events1.select = RealityConnectionTraceFinal.txt
+#RealityConnectionTraceRevised.txt
+#Haggle4-Cam-Imote.csv
+#Haggle3-Infocom5.txt
+#RealityConnectionTraceFinal.txt
+
+## Message creation parameters
+Events2.class = MessageEventGenerator
+Events2.interval = 580, 620
+#Events2.interval = 290, 310
+#Events2.interval = 580, 620
+Events2.time = 0, 15167416
+#97, 103
+# 25,30 (~120 texts/hour)
+#290, 310 (~12 texts/hour)
+# 580, 620 (~ 6 texts/hour)
+Events2.size = 10k
+
+## range of message source/destination address
+Events2.hosts = 0,96
+# 0, 35 Haggle Cam
+# 0,40 Haggle
+# 0,96 Reality
+Events2.prefix = M
+
+# World's size for Movement Models without implicit size (width, height; meters)
+MovementModel.worldSize = 100, 100
+
+# seed for movement models' pseudo random number generator (default = 0)
+MovementModel.rngSeed = 1
+
+
+#ReportsInformations
+Report.nrofReports = 1
+
+Report.reportDir = reports/MWF/reality009
+
+#Report classes to load
+Report.report1 = MessageStatsReport
+Report.report2 = DeliveryCentralityReport
+Report.report3 = LatencyPerContact
+Report.report4 = CarriedMessageToDestinationReport
+Report.report5 = MessageCopyReportperContact
+Report.report6 = ReceiveMessage
+Report.report7 = BufferOccupancyReport
+Report.report8 = BufferOccupancyPerTime
+Report.report9 = MessageStatsReportperContact
+Report.report10 = MessageStatsReportperTime
+
+
+

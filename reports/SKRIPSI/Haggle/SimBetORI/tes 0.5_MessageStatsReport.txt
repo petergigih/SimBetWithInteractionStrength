@@ -1,0 +1,20 @@
+Message stats for scenario tes 0.5
+sim_time: 274883.0000
+created: 177
+started: 6793
+relayed: 4684
+aborted: 2109
+dropped: 0
+removed: 0
+delivered: 149
+delivery_prob: 0.8418
+response_prob: 0.0000
+overhead_ratio: 30.4362
+latency_avg: 35767.4966
+latency_med: 25001.0000
+hopcount_avg: 2.2349
+hopcount_med: 2
+buffertime_avg: NaN
+buffertime_med: NaN
+rtt_avg: NaN
+rtt_med: NaN

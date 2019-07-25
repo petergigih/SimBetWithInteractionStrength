@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="66e13a54-673f-43a5-9e73-5d9fe1aafe1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SimBetMatrixHaggle.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/report/LatencyPerContactReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/report/MessageDeliveredPerContactReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/report/MessageStatsReport_26Sept_TiapKontak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/report/OverheadPerContactReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/report/PercentageMessageDeliveredPerContactReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImprovedNEWFAIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/community/SimilarityCounterImprovedNEWFAIR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingNewFair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FairRouteHag.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetFullFair.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetMF.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetProphetSettingsHAGGLE3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetProphetSettingsSASSY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWFairRoute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingHAGCAMDYNAMIC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingHAGG.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingHAGGPT2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingREAL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingREALDYNAMIC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingREALPT2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingSAS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingSASDYNAMIC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetWithFairRoutingSASPT2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimBetdumm1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetASU.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimBetMatrixReality.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetDummy.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetDynamic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimBetAsliHaggle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetF1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetF2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetFTES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetJ2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetJ3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SimBetAsliReality.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetJ4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetJ5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetJ6.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetNewFHagg.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SimbetNewFReal.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bubble_rap_wo_selfishness-settings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200_009/0.5 AGR 009_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200_009/0.5 AGR 009_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200_009/0.5 AGR 009_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_WithTTL3weeks_MsgCreate1200_009/0.5 AGR 009_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_HAGGLECAM4/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_HAGGLECAM4/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_HAGGLECAM4/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_HAGGLECAM4/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_SASSY/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_SASSY/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_SASSY/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETFAIR_With_MessageCreate_NEW_SASSY/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL2weeks_MsgCreate1200_NEW_NEW_BUFF30/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks_MsgCreate1200/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks_MsgCreate1200/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks_MsgCreate1200/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_WithTTL3weeks_MsgCreate1200/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_HAGGLECAM4/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_HAGGLECAM4/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_HAGGLECAM4/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_HAGGLECAM4/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW_SASSY/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW_SASSY/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW_SASSY/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/AAAASKRIPSI_FIX/SIMBETORI_With_MessageCreate_NEW_SASSY/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Apa/0.5 AGRNODOX_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Apa/0.5 AGRNODOX_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Apa/0.5 AGRNODOX_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/Apa/0.5 AGRNODOX_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_IMPROVE_REAL/0.5 AGR Improved_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_IMPROVE_REAL/0.5 AGR Improved_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_IMPROVE_REAL/0.5 AGR Improved_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_IMPROVE_REAL/0.5 AGR Improved_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TES0/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TES0/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TES0/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TES0/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSS0/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSS0/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSS0/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSS0/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSSS0/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSSS0/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSSS0/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_HAGG_TESSSS0/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL_TESSSS0/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL_TESSSS0/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL_TESSSS0/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETFAIR_NOIMPROVE_REAL_TESSSS0/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_HAGG/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_HAGG/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_HAGG/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_HAGG/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_REAL/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_REAL/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_REAL/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CEKFAIRNESS/SIMBETORI_REAL/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFair/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFair/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFair/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFair/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFairNoDox/0.5 AGRNODOX_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFairNoDox/0.5 AGRNODOX_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFairNoDox/0.5 AGRNODOX_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/CWEK/HAGGLE/SimBetFairNoDox/0.5 AGRNODOX_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FAIRROUTING/FairRoute_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FAIRROUTING/FairRoute_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FAIRROUTING/FairRoute_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/FAIRROUTING/FairRoute_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET MATRIX FAIR tessssss-a=0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.2_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.3_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.5_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.7_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.8_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0.9_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/0_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SIMBET_ORI_HAGGLE/1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/FairRouting/Fair Routing_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/FairRouting/Fair Routing_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/FairRouting/Fair Routing_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/FairRouting/Fair Routing_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFair/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFair/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFair/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFair/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFairImproved/0.5 AGR Improved_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFairImproved/0.5 AGR Improved_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFairImproved/0.5 AGR Improved_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetFairImproved/0.5 AGR Improved_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetORI/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetORI/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetORI/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Haggle/SimBetORI/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/FairRouting/Fair Routing_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/FairRouting/Fair Routing_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/FairRouting/Fair Routing_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/FairRouting/Fair Routing_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFair/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFair/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFair/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFair/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFairImproved/0.5 AGR Improved_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFairImproved/0.5 AGR Improved_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFairImproved/0.5 AGR Improved_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetFairImproved/0.5 AGR Improved_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetORI/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetORI/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetORI/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/Reality/SimBetORI/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetFair/Haggle3-Infocom5/0.5 AGR_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetFair/Haggle3-Infocom5/0.5 AGR_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetFair/Haggle3-Infocom5/0.5 AGR_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetFair/Haggle3-Infocom5/0.5 AGR_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetORI/Haggle3-Infocom5/0.5 ORI_DeliveryCentralityReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetORI/Haggle3-Infocom5/0.5 ORI_MessageReceivedReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetORI/Haggle3-Infocom5/0.5 ORI_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/SKRIPSI/SimBet/SimBetORI/Haggle3-Infocom5/0.5 ORI_ReportTransferMessage.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.2_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.3_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.5_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.7_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.8_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0.9_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/0_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF10/1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.2_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.3_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.5_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.7_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.8_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0.9_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/0_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/HAGGLE/SIMBETASLIBUFF20/1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.2_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.3_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.5_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.7_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.8_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0.9_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/0_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF10/1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.2_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.3_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.4_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.5_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.7_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.8_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0.9_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/0_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/TRACE/REALITY/SimBetORI_Reality/SIMBETASLIBUFF20/1_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/tes 0.6_MessageStatsReport.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_1stat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_2stat.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_2stat2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetDE_Dym.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/simbetsetReality.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/community/BetweennessCentralityImproved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/community/BetweennessCentralityImproved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/community/CentralityDetectionImproved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/community/CentralityDetectionImproved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImproved.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImproved.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/simbet/SimBetDynamicAlpha2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/simbet/SimBetDynamicAlpha3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRouting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRouting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingEP2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routing/simbet/SimBetWithFullFairRouting.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1455356813">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="47" />
+          <entry key="txt" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="47" />
+          <entry key="PLAIN_TEXT" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1077" />
+          <entry key="txt" value="705" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1077" />
+          <entry key="PLAIN_TEXT" value="705" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRouting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="368" column="20" selection-start-line="368" selection-start-column="20" selection-end-line="368" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-476">
+              <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/routing/community/BetweennessCentralityImproved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sen</find>
+      <find>send</find>
+      <find>ewFair</find>
+      <find>Na</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SimbetJ3.txt" />
+        <option value="$PROJECT_DIR$/src/report/LatencyPerContactReport.java" />
+        <option value="$PROJECT_DIR$/src/report/PercentageMessageDeliveredPerContactReport.java" />
+        <option value="$PROJECT_DIR$/src/report/OverheadPerContactReport.java" />
+        <option value="$PROJECT_DIR$/src/report/MessageStatsReport_26Sept_TiapKontak.java" />
+        <option value="$PROJECT_DIR$/src/report/MessageDeliveredPerContactReport.java" />
+        <option value="$PROJECT_DIR$/SimbetDynamic.txt" />
+        <option value="$PROJECT_DIR$/src/routing/community/CentralityDetectionImproved.java" />
+        <option value="$PROJECT_DIR$/src/routing/community/SimilarityCounterImprovedNEWFAIR.java" />
+        <option value="$PROJECT_DIR$/SimbetNewFHagg.txt" />
+        <option value="$PROJECT_DIR$/SimbetJ1.txt" />
+        <option value="$PROJECT_DIR$/SimbetNewFReal.txt" />
+        <option value="$PROJECT_DIR$/SimbetDynamic2.txt" />
+        <option value="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingNewFair.java" />
+        <option value="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRouting.java" />
+        <option value="$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImproved.java" />
+        <option value="$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImprovedNEWFAIR.java" />
+        <option value="$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingMatrix.java" />
+        <option value="$PROJECT_DIR$/src/routing/community/BetweennessCentralityImproved.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimBetFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimBetFair" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimBetFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimBetFair" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimBetFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimBetFair" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimBetFair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimBetFair" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="routing" type="462c0819:PsiDirectoryNode" />
+              <item name="community" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563793202882" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="routing.simbet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kuliah\Tugas Akhir\Skripsi\Kodingan\SimBetFair" />
+      <recent name="D:\Kuliah\Tugas Akhir\Skripsi\Kodingan\SimBetFair\src\routing\community" />
+      <recent name="D:\Kuliah\Tugas Akhir\Skripsi\Kodingan\SimBetFair\src\routing\simbet" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SimBetFairHaggle">
+    <configuration name="SimBetFairHaggle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimbetDynamic2.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimBetFairNewHaggle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimbetNewFHagg.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimBetFairNewRealityMIT" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimBetNewFReal.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimBetFairRealityMIT" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimbetJ1.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimBetORIHaggle" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimbetDynamic.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimBetORIRealityMIT" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <module name="SimBetFair" />
+      <option name="PROGRAM_PARAMETERS" value="-b 1 SimbetJ3.txt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="core.DTNSim" />
+      <option name="WORKING_DIRECTORY" value="-b 1 SimBet" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SimBetFairHaggle" />
+      <item itemvalue="Application.SimBetFairNewRealityMIT" />
+      <item itemvalue="Application.SimBetORIHaggle" />
+      <item itemvalue="Application.SimBetFairRealityMIT" />
+      <item itemvalue="Application.SimBetORIRealityMIT" />
+      <item itemvalue="Application.SimBetFairNewHaggle" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="66e13a54-673f-43a5-9e73-5d9fe1aafe1a" name="Default Changelist" comment="" />
+      <created>1561522695885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561522695885</updated>
+    </task>
+    <task id="LOCAL-00001" summary="SimBet With Fair Matrix">
+      <created>1561525632544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561525632545</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41371918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3279743" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1913646" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41371918" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3279743" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SimBet With Fair Matrix" />
+    <option name="LAST_COMMIT_MESSAGE" value="SimBet With Fair Matrix" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/core/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="683" selection-start-line="683" selection-end-line="683" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimBetAsliReality.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="140" column="36" selection-start-line="140" selection-start-column="36" selection-end-line="140" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/LatencyPerContactReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/PercentageMessageDeliveredPerContactReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/OverheadPerContactReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/MessageStatsReport_26Sept_TiapKontak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="98" column="9" lean-forward="true" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/MessageDeliveredPerContactReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/SimilarityDetectionEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/SimilarityCounterImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/FairRoutingRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3400">
+          <caret line="222" column="1" selection-start-line="222" selection-start-column="1" selection-end-line="236" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/SimBet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="209" column="27" selection-start-line="209" selection-start-column="27" selection-end-line="209" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/CentralityDetectionImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/MessageReceivedReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="34" column="24" lean-forward="true" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/report/ReportTransferMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/SimilarityCounterImprovedNEWFAIR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/ProphetFuzzyNineRules.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5406">
+          <caret line="338" column="37" selection-start-line="338" selection-start-column="37" selection-end-line="338" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/decisionengine/FairRoutingRouter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="848">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimBetMatrixHaggle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="871">
+          <caret line="138" column="41" selection-start-line="138" selection-start-column="41" selection-end-line="138" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimbetNewFReal.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimbetNewFHagg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" selection-start-line="36" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRouting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="368" column="20" selection-start-line="368" selection-start-column="20" selection-end-line="368" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/BetweennessCentrality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="12" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimBetMatrixReality.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/NeighbourhoodSimilarityImprovedNEWFAIR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimBetAsliHaggle.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingNewFair.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/simbet/SimBetWithFairRoutingMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476">
+          <caret line="53" column="64" selection-start-line="53" selection-start-column="64" selection-end-line="53" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/routing/community/BetweennessCentralityImproved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SimBetFair</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
