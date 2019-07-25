@@ -11,7 +11,7 @@ import core.Settings;
 
 import java.util.ArrayList;
 import java.util.Map;
-
+ 
 public class NeighbourhoodSimilarityImprovedNEWFAIR implements SimilarityCounterImprovedNEWFAIR {
 
 
