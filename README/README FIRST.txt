@@ -1,5 +1,9 @@
-Kodingan Skripsi 
-----> src/routing/simbet/SimBetWithFairRoutingMatrix(SimBet By: Elisabeth Kusuma, Fair Routing By: Bima Kharisma, Merged By Peter Gigih)
+Pengubahan Penghitungan matrix relasi antar Node, method yang di mainkan = doExchangeForNewConnection,builtEgoNetwork,builtIndirectNode,CountSimilarity,CountBetweeness
+method fair Routing yang di pakai = 
+UpdatePerceiveInteractionStrength,AggreagtionInteractionStrength,doExchangeForNewConnection
+
+Kodingan Skripsi :
+     ----> src/routing/simbet/SimBetWithFairRoutingMatrix(SimBet By: Elisabeth Kusuma, Fair Routing By: Bima Kharisma, Merged By Peter Gigih)
 atau ----> src/routing/simbet/SimBetWithFairRouting(SimBet By: Elisabeth Kusuma, Fair Routing By: Elisabeth Kusuma, Merged By Peter Gigih)
 
 Class lain yang di pakai ----> src/routing/community/BetweennessCentralityImproved 
